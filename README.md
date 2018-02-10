@@ -3,7 +3,8 @@
 NiceSpinner is a re-implementation of the default Android's spinner, with a nice arrow animation and a different way to display its content.
 
 It follows the material design guidelines, and it is compatible starting from Api 14.
-
+## ScreenShot
+![nice-spinner](image/ezgif.com-video-to-gif.gif)
 ![alt tag](nice-spinner.gif)
 
 ### Usage
@@ -23,6 +24,8 @@ The usage is pretty straightforward. Add the tag into the XML layout:
  NiceSpinner niceSpinner = (NiceSpinner) findViewById(R.id.nice_spinner);
  List<String> dataset = new LinkedList<>(Arrays.asList("One", "Two", "Three", "Four", "Five"));
  niceSpinner.attachDataSource(dataset);
+ spinner.setTextInternal(getString(R.string.country)); // setting default hint
+ reg_spinner2.setSelectedIndex(0);// setting default select index
 ```
 
 #### Attributes

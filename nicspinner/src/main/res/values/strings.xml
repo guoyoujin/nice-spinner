@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NiceSpinnerDemo</string>
+    <string name="china">China</string>
+    <string name="america">America</string>
+    <string name="england">England</string>
+    <string name="country">Please select a country</string>
+
+</resources>
